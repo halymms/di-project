@@ -1,0 +1,22 @@
+.header-di {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.links-header {
+  display: flex;
+}
+
+.list-links-header {
+  display: flex;
+}
+
+.list-header {
+  list-style-type: none;
+}
+
+.sign-in, .sign-up {
+    padding: 0.688rem 1.563rem;  
+}
