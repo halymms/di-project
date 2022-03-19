@@ -3,6 +3,7 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;
+  padding: 1rem;
 }
 
 .links-header {
@@ -17,6 +18,51 @@
   list-style-type: none;
 }
 
-.sign-in, .sign-up {
-    padding: 0.688rem 1.563rem;  
+.list-links {
+  padding: 0.5rem 1rem;
+  color: #212832;
+  text-decoration: none;
+  font-size: .88rem;
+}
+
+.list-links:hover {
+  transition: 0.15s;
+  color: #f90;
+}
+
+.button {
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0.688rem 1.563rem;
+  border-radius: 0.25rem;
+  
+}
+
+.button:hover {
+  transition: 0.15s;
+}
+
+.sign-in {
+  color: #173a56;
+  border: 0.0625rem solid #bcd0e5;
+}
+
+.sign-in:hover {
+  color: #2F281E;
+}
+
+.sign-up {
+  color: #fffefe;
+  background-color: #f90;
+  border-color: #f90;
+  margin-left: 1rem !important;
+}
+
+.sign-up:hover {
+  background-color: #cc7a00;
+  border-color: #bf7300;
+}
+
+.register-or-enter {
+  margin-left: 1.8rem !important;
 }
