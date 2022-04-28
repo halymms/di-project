@@ -14,6 +14,20 @@
   align-items: center;
   width: 100%;
   padding: 1rem;
+  position: -webkit-sticky;
+  position: static;
+  top: 0;
+  z-index: 1020;
+}
+
+.div-logo {
+  margin-right: 1rem;
+  padding-top: 0.18213rem;
+  padding-bottom: 0.18213rem;
+}
+
+.logo-img {
+  height: 31px;
 }
 
 .links-header {
@@ -32,7 +46,7 @@
   padding: 0.5rem 1rem;
   color: #212832;
   text-decoration: none;
-  font-size: .88rem;
+  font-size: 0.88rem;
 }
 
 .list-links:hover {
@@ -45,7 +59,6 @@
   text-decoration: none;
   padding: 0.688rem 1.563rem;
   border-radius: 0.25rem;
-  
 }
 
 .button:hover {
@@ -58,7 +71,7 @@
 }
 
 .sign-in:hover {
-  color: #2F281E;
+  color: #2f281e;
 }
 
 .sign-up {
@@ -68,7 +81,9 @@
   margin-left: 1rem !important;
 }
 
-.sign-up:hover {
+.sign-up:hover,
+.button-main:hover,
+.button-newsletter:hover {
   background-color: #cc7a00;
   border-color: #bf7300;
 }
@@ -87,7 +102,8 @@
   padding: 3rem 1rem;
 }
 
-.design-thinking-text, .design-thinking-image {
+.design-thinking-text,
+.design-thinking-image {
   width: 50%;
   overflow: hidden;
 }
@@ -99,7 +115,7 @@
 .design-thinking-text h1 {
   font-size: 46px;
   font-weight: 700;
-  color: #2F281E;
+  color: #2f281e;
   line-height: 1.2;
   margin-bottom: 1.8rem;
 }
@@ -110,4 +126,203 @@
   color: #544837;
   line-height: 1.5;
   margin-bottom: 3rem !important;
+}
+
+.button-main {
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #f90;
+  border-color: #f90;
+  padding: 0.938rem 2.563rem;
+  border-radius: 0.25rem;
+  transition: 0.15s ease-in-out;
+  margin-right: 1rem;
+}
+
+.watch-button {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #f90;
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+  padding: 0.688rem 1.563rem;
+}
+
+.design-thinking-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.svg-inline--fa {
+  width: 14px;
+  height: 16px;
+  margin-right: 0.5rem;
+}
+
+.footer-di {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  padding-top: 5rem;
+  padding-bottom: 2.5rem;
+}
+
+.input-newsletter-container {
+  display: grid;
+}
+
+.logo-footer .logo-img {
+  width: 184px;
+}
+
+.links-footer-list {
+  list-style-type: none;
+}
+
+.title-newsletter {
+  font-size: 1.26rem;
+  margin-bottom: 1.8rem;
+}
+
+.input-newsletter {
+  width: 100%;
+  padding: 0.688rem 1.563rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #2f281e;
+  background-color: #fffefe;
+  background-clip: padding-box;
+  border: 1px solid #e0e0e0;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.button-newsletter {
+  font-weight: 500;
+  color: #fffefe;
+  background-color: #f90;
+  border-color: #f90;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 0.688rem 1.463rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  width: 151px;
+  transition: 0.15s ease-in-out;
+}
+
+.list-footer {
+  display: grid;
+  justify-content: right;
+  padding-right: 8rem;
+}
+
+.links-footer-list {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 0.25rem;
+}
+
+.links-footer {
+  color: #544837;
+  text-decoration: none;
+}
+
+.credits {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-top: 1px solid #eee !important;
+}
+
+.credits p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #2f281e;
+  font-family: "Poppins", "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+}
+
+.credits p span {
+  font-size: 1.2rem;
+  color: #212832;
+}
+
+.title-benefits {
+  font-size: 2.88651rem;
+  font-weight: 700;
+  text-align: center;
+  color: #2f281e;
+  padding-top: 7.5rem;
+  padding-bottom: 1.8rem;
+}
+
+.benefits-ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.benefits-ul b {
+  font-size: 1.26563rem;
+  font-weight: 700;
+  color: #2f281e;
+}
+
+.benefits-ul p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #2f281e;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.button-container a {
+  padding: 0.688rem 1.563rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 1rem;
+}
+
+img.img-get-started {
+  max-width: 88% !important;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  width: 38%;
+}
+
+.form-login h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #2f281e;
+  margin-bottom: 2rem;
+}
+
+.form-login input {
+  height: 63px;
+  margin-bottom: 17px;
+  padding: 15px;
+  border: 0.0625rem solid #bcd0e5;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+form .button-container a {
+  width: 100%;
+  text-align: center;
 }

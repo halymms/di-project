@@ -4,50 +4,89 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Design de Interação</title>
+    <title>Home</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="content-page">
     <header class="padding-default header-di">
       <div class="div-logo">
-        <img src="./assets/logo.svg" alt="Logo" />
+        <a href="./index.html"><img src="./assets/logo.svg" class="logo-img" alt="Logo" /></a>
       </div>
       <div class="links-header">
         <ul class="list-links-header">
           <li class="list-header">
-            <a href="" class="list-links">Product</a>
+            <a href="./pages/GetStarted/index.html" class="list-links">Get Started</a>
           </li>
           <li class="list-header">
-            <a href="" class="list-links">Customers</a>
-          </li>
-          <li class="list-header">
-            <a href="" class="list-links">Pricing</a>
-          </li>
-          <li class="list-header">
-            <a href="" class="list-links">Resources</a>
+            <a href="./pages/Benefits/index.html" class="list-links">Benefits</a>
           </li>
         </ul>
         <div class="register-or-enter">
-          <a href="" class="button sign-in">Sign In</a>
-          <a href="" class="button sign-up">Sign Up</a>
+          <a href="./pages/Forms/Signin/index.html" class="button sign-in">Sign In</a>
+          <a href="./pages/Forms/SignUp/index.html" class="button sign-up">Sign Up</a>
         </div>
       </div>
     </header>
     <section class="padding-default design-thinking">
       <div class="design-thinking-text">
         <h1>The Design Thinking Superpowers</h1>
-        <p>Tools tutorials, design and innovation experts, all <br />
+        <p>
+          Tools tutorials, design and innovation experts, all <br />
           in one place! The most intuitive way to imagine <br />
-          your next user experience.</p>
-        <div>
-          <a href="#">Get started</a>
-          <a href="#">Watch the video</a>
+          your next user experience.
+        </p>
+        <div class="design-thinking-buttons">
+          <a class="button-main" href="./pages/GetStarted/index.html">Get started</a>
+          <a class="watch-button" href="./pages/Benefits/index.html"
+            ><svg
+              class="svg-inline--fa fa-play fa-w-14 me-2"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="play"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+              data-fa-i2svg=""
+            >
+              <path
+                fill="currentColor"
+                d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"
+              ></path>
+            </svg>
+            Benefits</a
+          >
         </div>
       </div>
-      <div class="design-thinking-image"> 
-        <img src="./assets/hero/hero-img.png" alt="Hero Img">  
+      <div class="design-thinking-image">
+        <img src="./assets/hero/hero-img.png" alt="Hero Img" />
       </div>
     </section>
+    <footer class="footer-di">
+      <div class="logo-footer">
+        <img src="./assets/logo.svg" class="logo-img" alt="Logo" />
+      </div>
+      <div>
+        <ul class="list-footer">
+          <span class="title-newsletter">Quick Links</span>
+          <li class="links-footer-list">
+            <a href="./pages/Benefits/index.html" class="links-footer">Benefits</a>
+          </li>
+          <li class="links-footer-list">
+            <a href="./pages/GetStarted/index.html" class="links-footer">Get Started</a>
+          </li>
+        </ul>
+      </div>
+      <div class="input-newsletter-container">
+        <span class="title-newsletter">knowing you're always on the best energy deal.</span>
+        <input type="text" class="input-newsletter" placeholder="Enter your phone Number">
+        <button type="submit" class="button-newsletter">Sign up Now</button>
+      </div>
+    </footer>
+    <div class="credits">
+      <p>© 2022 Brilhador Inc</p>
+      <p>Made with dedication <span>by  halymms</span></p>
+    </div>
   </body>
 </html>

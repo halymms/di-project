@@ -6,3 +6,11 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+input, button, select, optgroup, textarea, label {
+    font-family: "Poppins","Rubik","Open Sans",-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important;
+}
+
+li {
+    list-style-type: none;
+}
