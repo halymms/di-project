@@ -26,6 +26,22 @@
   padding-bottom: 0.18213rem;
 }
 
+.link-logo {
+  text-decoration: none;
+}
+
+.logo-hymm {
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f90;
+}
+
+.schools-span {
+  font-size: 10px;
+  color: #173a56;
+}
+
 .logo-img {
   height: 31px;
 }
@@ -112,7 +128,8 @@
   max-width: 100%;
 }
 
-.design-thinking-text h1 {
+.design-thinking-text h1,
+.grades-and-lessons h1 {
   font-size: 46px;
   font-weight: 700;
   color: #2f281e;
@@ -313,7 +330,8 @@ img.img-get-started {
   margin-bottom: 2rem;
 }
 
-.form-login input {
+.form-login input,
+.grade-and-lessons-inputs input {
   height: 63px;
   margin-bottom: 17px;
   padding: 15px;
@@ -325,4 +343,50 @@ img.img-get-started {
 form .button-container a {
   width: 100%;
   text-align: center;
+}
+
+.get-buttons .button.sign-up {
+  cursor: pointer;
+}
+
+.get-buttons .button.sign-up:first-child {
+  margin-left: 0 !important;
+}
+
+.grade-and-lessons-inputs {
+  display: grid;
+  width: 50%;
+}
+
+.grade-and-lessons-inputs select {
+  height: 63px;
+  margin-bottom: 17px;
+  padding: 15px;
+  border: 0.0625rem solid #bcd0e5;
+  border-radius: 6px;
+  font-size: 1rem;
+  overflow-y: unset;
+}
+
+.grade-and-lessons-inputs option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.grade-and-lessons-inputs option::after {
+  content: "";
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8ZyBpZD0iZHJvcGRvd24tYXJyb3ctcmlnaHQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zMDguNSA0MzMpIHJvdGF0ZSgtOTApIj4KICAgIDxyZWN0IGlkPSJSZWN0YW5nbGVfNjYxMyIgZGF0YS1uYW1lPSJSZWN0YW5nbGUgNjYxMyIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0MTcgMzA4LjUpIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIwIi8+CiAgICA8cGF0aCBpZD0iYXJyb3ciIGQ9Ik0xMi44ODUsMjAuOThsNS41NjMtNS4zNTVMMTIuODg1LDEwLjI3LDE0LjYsOC42MjVsNy4yODcsNy03LjI4Nyw3WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDQwLjYyNSAyOTkuMTE1KSByb3RhdGUoOTApIiBmaWxsPSIjMTg3OWE2Ii8+CiAgPC9nPgo8L3N2Zz4K);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  margin-left: 2px;
+  transform: rotate(91deg);
+}
+
+.lessons {
+  padding: 10px 0 0;
 }
